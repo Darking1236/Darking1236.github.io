@@ -4,8 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>San valentine</title>
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>Pagina San valentine</header>
+    <main>
+      <div class="contPrincipal">
+        <div class="contImg">
+          <img id="imgCat" src="src/img/Cat1.png" alt="random" />
+        </div>
+        <div class="question">
+          <h2>¿Quieres ser mi San Valentín?</h2>
+        </div>
+        <div class="contBtn">
+          <button id="btnAceptar" class="btn btnAcepto" type="button">
+            Si
+          </button>
+          <button id="btnNoAcepto" class="btn btnNo" type="button">No</button>
+        </div>
+      </div>
+      <div class="contPrincipal2">
+        <div class="contTitle2 question">
+          <h1>Presiona el boton para que te muestre nuestra cita!</h1>
+          <span>(Esta entre 6 opciones y saldrá al azar:3)</span>
+        </div>
+        <div class="contTxtGift">
+          <span class="txtGift"></span>
+        </div>
+        <div class="contBtnRandom">
+          <button id="btnRandomGift" type="button" class="btnRandom btn">
+            Haz click aqui!
+          </button>
+        </div>
+      </div>
+      <div id="corazones" class="ocultar"></div>
+    </main>
+    <script src="src/js/index.js"></script>
   </body>
 </html>
